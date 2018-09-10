@@ -38,7 +38,7 @@
 html {
     background-color: hsl(91, 8%, 56%); 
         font-size: 0.9em;
-        text-align: center;
+        text-align: left;
         padding-top: 10px;
         padding-bottom: 10px;
     }
@@ -62,7 +62,7 @@ p {
 }
 
 
-p {
+body>p {
     size: 1.1em;
     text-align: center;
 }
@@ -142,3 +142,15 @@ padding-left: 20px;
     font-family: Dobkin, cursive
 }
 /* Description List Styles */
+
+dt {
+    font-size: 1.3em;
+    font-weight: bold;
+    color:hsla(0, 0%, 0%, 0.4);
+}
+
+dd {
+font-size: 1.3em;
+margin-left: 0px;
+margin-bottom: 10px;
+}
