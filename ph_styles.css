@@ -36,9 +36,12 @@
 
 /* Structural Styles */
 html {
-    background-color: hsl(91, 8, 56)
-}
-
+    background-color: hsl(91, 8%, 56%); 
+        font-size: 0.9em;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 
 body {
     background-color:  hsl(58, 31%, 84%);
@@ -63,12 +66,7 @@ p {
     size: 1.1em;
     text-align: center;
 }
-address {
-    font-size: 0.9em;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
+
 
 
 /* Navigation Styles */
@@ -125,20 +123,22 @@ padding-left: 20px;
 }
 
 #play2 h1 {
-    font-family: 
+    font-family: Grunge,'Times New Roman', Times, serif
 }
 
 #play3 {
     background-color: hsl(0, 100%, 75%);
 }
 
-#play3 h1
+#play3 h1{
+    font-family: Impact,Charcoal,sans-serif
+}
 
 #play4 {
     background-color: hsl(296, 86%, 86%);
 }
 
-#play4 h1
-
+#play4 h1 {
+    font-family: Dobkin, cursive
+}
 /* Description List Styles */
-
